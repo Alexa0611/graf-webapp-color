@@ -1,7 +1,47 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
 .color-box {
-    width: 200px;
-    height: 200px;
-    background-color: #000000;
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#hexCode {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-picker-container {
+    max-width: 250px;
+    margin: 20px auto;
+}
+
+.controls {
+    max-width: 500px;
     margin: auto;
-    border: 2px solid #ddd;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.form-range {
+    width: 100%;
+}
+
+.shadow-lg {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
